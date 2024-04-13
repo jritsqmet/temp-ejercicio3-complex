@@ -1,0 +1,35 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h4>Login</h4>
+          </div>
+          <div class="card-body">
+
+
+
+            <form (ngSubmit)="login( formulario )" #formulario = "ngForm">
+              <div class="mb-3">
+                <label for="nick" class="form-label">Nick:</label>
+                <input type="text" class="form-control" id="id" 
+                  placeholder="Enter nick" name="id" [(ngModel)]="id">
+              </div>
+      
+              <div class="mb-3">
+                <label for="pwd" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="pass" 
+                  placeholder="Enter password" name="pass" [(ngModel)]="pass">
+              </div>
+          
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

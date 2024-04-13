@@ -1,0 +1,30 @@
+{
+    "user": [
+        {
+            "id": "juan",
+            "pass": "12345",
+            "tipo": "admin"
+        },
+        {
+            "id": "ana",
+            "pass": "000",
+            "tipo": "admin"
+        },
+        {
+            "id": "goPro",
+            "pass": "qwerty"
+        },
+        {
+            "id": " miguel34",
+            "pass": "98765"
+        }
+    ],
+
+    "productos":[
+        {
+            "id": " miguel34",
+            "pass": "98765"
+        }
+
+    ]
+}
